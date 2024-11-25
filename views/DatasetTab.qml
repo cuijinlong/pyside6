@@ -6,7 +6,7 @@ Item {
     property var datasetRoutes:[{ "path": "/datasetTable", "name": "数据详情", "component": Qt.createComponent("DatasetTable.qml") },
                                 { "path": "/datasetVariable", "name": "变量管理", "component": Qt.createComponent("DatasetVariable.qml") },
                                 { "path": "/datasetLabel", "name": "标签管理", "component": Qt.createComponent("DatasetLabel.qml") }
-                                ]
+                               ]
     TabBar {
         id: tabBarControl
         anchors.top: parent.top
