@@ -43,8 +43,6 @@ try:
     print(f"定义启发式函数推荐的学习路径 (A*): {path}")
 except nx.NetworkXNoPath:
     print(f"无法从 {start_node} 到 {end_node} 找到路径")
- git config --global user.name "langmen@126.com"
- git config --global user.email "CJLqh@163"
 # -----------------------------------------------floyd算法(依次将每个点作为『中间点』去做更新)-------------------------------------------------------------
 # 设置无穷大
 import json
